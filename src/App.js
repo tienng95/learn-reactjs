@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Tien Nguyen
+          Hello World!
         </a>
       </header>
     </div>
