@@ -2,6 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const name = "Tien";
+  const age = 18;
+  const isMale = true;
+  const colors = ['red', 'blue', 'yellow'];
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +21,10 @@ function App() {
         >
           Hello World!
         </a>
+        <p>I'm {name}, {age} - {isMale ? 'male' : 'female'}</p>
+        {colors.map(color => (
+          <div style={{color}}>{color}</div>
+        ))}
       </header>
     </div>
   );
